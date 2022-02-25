@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11134" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11134"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+    </objects>
+</document>
+<head> 
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<script src="index.jss"></script> 
+
+        <!--Main HTML Code-->
+        
+        <nav id = "navbar"><form>
+            <a href="file:///Users/poorvidesai/Desktop/untitled%20folder/Poorvi%20Desai/WebD/htmlpro/quollabComp/index.html?all=All&Search+IMDb=shershaah"><img id = "logo" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png"></a>
+            <ul>
+               
+                <li><label for ="all"></label>
+                    <select name = "all" id = "all">
+                        <option value = "All">All</option>
+                        <option value = "Titles">Movies</option>
+                        <option value = "Celebs">TV Shows</option>
+                        <option value="Keywords">Keywords</option>
+                            </select>
+                    
+                    <label for = "all"><input id = "Search_IMDb" type="text" name = "Search IMDb" placeholder ="Search IMDb..."><button type="submit" id="inputMov">Enter<a href="#showData">.</a></button></label></li>
+                
+                <li><button type="button" class = "plusPro" onclick="alert('Please Sign In first!')">Plus Pro</button></li>
+                <li><button type="button" class = "signin" onclick= "prompt('Please enter your email id')">Sign In</button></li></form>
+                </ul>
+            </nav>
+        </head>
+    <body>
+       <br><br>
+        <div id="title">
+            
+            
+            </div>
+        
+        <div class ="banners">
+            <br><br><br><br><br>
+            <p id="newRel">New Releases...</p>
+            <div>
+            <button class="previous" onclick="moveleft(-1)">&#8249</button>
+            <button class="next" onclick="moveleft(+1)">&#8250</button>
+           </div>
+            <div>
+            
+            <img class = "banner_img"  src="https://www.pinkvilla.com/imageresize/mumbai_diaries.jpg?width=752&format=webp&t=pvorg">
+                <!-- scrolling 5 imgs here..make it using JS and maybe links of ratings and descrip also needed here--->
+                <img class="banner_img" src="https://m.media-amazon.com/images/M/MV5BODljNDYzZDgtMDc1NS00YzE1LTg1NGMtYTAyOWYwZWYyZDk3XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg">
+                    
+                    <img class="banner_img" src="http://www.freshers-live.com/wp-content/uploads/2021/08/MONEY-HEIST-SEASON-2-SUBTITLES-DOWNLOAD-ENGLISH_11zon.jpg">
+                   </div>
+            
+        <br><br>
+        <br><br>
+        <div align = "center" class = "content">
+            <p>Recommendations</p>
+            </div>
+        
+        
+        <div class = "recommendations">
+           
+           <div class="inside">
+               
+                <img src = "https://m.media-amazon.com/images/M/MV5BMWY3NTljMjEtYzRiMi00NWM2LTkzNjItZTVmZjE0MTdjMjJhL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTQ4NTc5OTU@._V1_.jpg" id = "firstR">
+                    <p><span>&#11088;</span>9.3</p>
+                    <p>Thriller</p>
+                    <p><a href ="https://www.youtube.com/watch?v=xK7S9mrFWL4"><span>&#9654;</span> Trailer</a> </p>
+                  </div>
+           <div class="inside">
+               
+                     <img src = "https://static.toiimg.com/photo/msid-83206297/The%20Family%20Man%20Season%202.jpg?83206297" id = "secondR">
+                         <p><span>&#11088;</span>9.2</p>
+                         <p>Thriller</p>
+                         <p><a href ="https://www.youtube.com/watch?v=NGf_B81Hc2M"><span>&#9654;</span> Trailer</a> </p>
+                        
+                </div>
+           <div class="inside">
+               
+                     <img src = "https://centralrecorder.com/wp-content/uploads/2021/07/MV5BZGJjNTViMDgtZjMwZS00ZDNmLWE1NDItZDFlOTBlYzA3MDkwXkEyXkFqcGdeQXVyMTA5NzIyMDY5._V1_.jpg" id = "thirdR">
+                         <p><span>&#11088;</span>9.0</p>
+                         <p>Action</p>
+                         <p><a href ="https://www.youtube.com/watch?v=Q0FTXnefVBA"><span>&#9654;</span> Trailer</a> </p>
+                        
+                </div>
+           <div class="inside">
+               
+                     <img src = "https://m.media-amazon.com/images/M/MV5BZmRlMTkwMmYtMjU3Mi00MDRlLTg2ZjUtMGVkZGY3MTgwZmEyXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg" id = "thirdR">
+                         <p><span>&#11088;</span>9.2</p>
+                         <p>Comedy</p>
+                         <p><a href ="https://www.youtube.com/watch?v=pNZQ6msbOvM"><span>&#9654;</span> Trailer</a> </p>
+                        
+                </div>
+           <div class="inside">
+               
+                     <img src = "https://m.media-amazon.com/images/M/MV5BNDJkYzY3MzMtMGFhYi00MmQ4LWJkNTgtZGNiZWZmMTMxNzdlXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg" id = "thirdR">
+                         <p><span>&#11088;</span>8.5</p>
+                         <p>Thriller</p>
+                         <p><a href ="https://www.youtube.com/watch?v=htqXL94Rza4"><span>&#9654;</span> Trailer</a> </p>
+                        
+                </div>
+           <div class="inside">
+               
+                     <img src = "https://images-na.ssl-images-amazon.com/images/I/912w-43AfnL._RI_.jpg" id = "thirdR">
+                         <p><span>&#11088;</span>7.5</p>
+                         <p>Thriller</p>
+                         <p><a href ="https://www.youtube.com/watch?v=oeYElSu3gEc"><span>&#9654;</span> Trailer</a> </p>
+                        
+                </div>
+           <div class="inside">
+           
+                 <img src = "https://m.media-amazon.com/images/M/MV5BMDc3Zjc4NjAtMTI2MC00YmQwLTk3MmItZTZiNWM0YmNiNmNkXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg" id = "thirdR">
+                     <p><span>&#11088;</span>8.7</p>
+                     <p>Thriller</p>
+                     <p><a href ="https://www.youtube.com/watch?v=GF0H5DZAE2g"><span>&#9654;</span> Trailer</a> </p>
+                    
+            </div>
+           <div class="inside">
+           
+                 <img src = "https://www.themoviedb.org/t/p/w500/ijJm0RSeKIr67qkHLtSmtigS6ra.jpg" id = "thirdR">
+                     <p><span>&#11088;</span>7.0</p>
+                     <p>Fantasy</p>
+                     <p><a href ="https://www.youtube.com/watch?v=QG7cWYyNN8I"><span>&#9654;</span> Trailer</a> </p>
+                    
+            </div>
+            </div>
+        <br><br>
+        
+        
+        <div class = "pro_ad">
+            <p><b>Subscribe for 19.99$ to get Advanced Features and Offline Support</b></p>
+            <!-- add redirect to imdb plans page here..img in mobile-->
+            <button type="button" id="plans" onclick="pageRedirect()">See Plans</a>
+                </button>
+            or
+            <button type="button" id="free" onclick="alert('Go Ahead!! :)')">Try for Free</a>
+                </button>
+            </div>
+        <br><br>
+        <div class="foot">
+    <img id="last_img"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1200px-IMDB_Logo_2016.svg.png">
+        <a href="https://www.facebook.com/imdb/">
+        <img id="footlogo1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBaMgi_mNumCZTI_Qi05f5bQNB1tKmswLNTw&usqp=CAU"></a>
+        
+        
+        <a href="https://www.instagram.com/imdb/?hl=en">
+        <img id="footlogo2"  src="https://mpng.subpng.com/20180629/vue/kisspng-www-mevrouwpak-nl-advertising-graphic-design-insta-instagramm-5b3692f028e740.4061558515303032161676.jpg">
+            </a>
+        
+        <a href="https://twitter.com/IMDb?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <img id="footlogo3"  src="https://cdn2.vectorstock.com/i/1000x1000/80/41/twitter-logo-icon-vector-29228041.jpg"></a>
+        
+        <a href="https://www.youtube.com/channel/UC_vz6SvmIkYs1_H3Wv2SKlg">
+        <img id="footlogo4"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGb4WSNM0eN4pOFnwFtHbmuNv7lyN_QPzD0cKYzNvwKDyCCgoieMtZF2uDuc55SRerV4E&usqp=CAU"></a>
+       
+        
+        </div>
+    </body>
+    
+    <!--Javascript code-->
+    
+    
+    </html>
