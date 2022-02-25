@@ -1,4 +1,4 @@
-<script>
+
             var imgIndex = 1;
             showImgs(imgIndex);
     
@@ -23,20 +23,10 @@
                 }
                 x[imgIndex - 1].style.display = "block";
             }
-            </script>
-        <script>
            
            function pageRedirect() {
                  window.location.href = "https://help.imdb.com/article/imdbpro/your-account/special-offers/GUCJ9BBXKDQPWAZV?ref_=helpart_nav_41#";
                }
-            
-            </script>
-        
-       
-        <script>
-            
-            
-            
             
             //initial values
             const API_KEY = "c1b90b4e03db7f0fa3c01d9b85f080ce";
@@ -107,4 +97,4 @@
             
             }
            
-        </script>
+   
