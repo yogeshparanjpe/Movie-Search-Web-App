@@ -1,272 +1,229 @@
-/* <style> */
-            head{
-                background-color : #181818;
-                position : fixed;
-                width : 100%;
-                text-align : center;
-                color: white;
-            }
-            #logo{
+/* Improved styles.css */
 
-              height: 40px;
-              display: inline;
-              float : left;
-              position : relative;
-              border-radius: 0.5rem;
-              left : 150px;
-              
-             
+/* Global Styles */
+body, html {
+    background-color: #080808;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
-            }
-            #navbar ul{
-                list-style-type : none;
-                margin : 10;
-                text-align : center;
-            }
-            #navbar li{
-                display : inline;
-                font-size: 25px;
-                padding : 14px;
-                color : white;
-                
-            }
-            a{
-                text-decoration : none;
-                color : white;
-            }
-            #navbar{
-                  height: 45px;
-                  width: 100%;
-                  display : inline-block;
-                  position: fixed;
-                  top: 0;
-                  left: 0;
-                  background-color: #181818;
-                  font-size: 20px;
-                  padding : 15px;
-            }
-            #all{
-                font-size : 18px;
-                width: 6%;
-            }
-            #Search_IMDb{
-                font-size: 18px;
-                width : 40%;
-                
-            }
-            body{
-                background-color : #080808;
-                color : white;
-            }
-            .banner_img{
-                display : none;
-                margin-left: auto;
-                margin-right : auto;
-                width : 70%;
-                height : 85%;
-                
-            }
-            #genres, #movies, #platform, #ratings{
-                font-size : 20px;
-                padding : 8px;
-                text-align : center;
-                display : inline;
-                border-radius: 0.5rem;
-                margin-left: 50px;
-                margin-right : 40px;
-                width : 16%;
-                background-color : #515560;
-                color: white;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                
-            }
-            select{
-                border : none;
-            }
-            .content{
-                font-size: 40px;
-                text-align : left;
-                margin-left: 70px;
-                margin-right : 40px;
-                color : #FFD700;
-            }
-            #firstR{
-                
-                margin-left: 70px;
-                margin-right : 40px;
-                width : 250px;
-                height: 350px;
-                
-            }
-            #secondR{
-                margin-left: 70px;
-                margin-right : 40px;
-                width : 250px;
-                height: 350px;
-                
-                
-            }
-            #thirdR{
-                margin-left: 70px;
-                margin-right : 40px;
-                width : 250px;
-                height: 350px;
-                
-            }
-            .recommendations p{
-                margin-left: 70px;
-                margin-right : 40px;
-                font-size: 20px;
-                
-                
-            }
-            
-            .inside {
-              float: left;
-              width: 20%;
-              padding: 5px;
-            }
-            .recommendations::after {
-              content: "";
-              clear: both;
-              display: table;
-              
-            }
-            .pro_ad{
-                background-color: #FFD700;
-                color: black;
-                text-align : center;
-                padding: 20px;
-                height : 90px;
-                width: 100%;
-                opacity : 0.85;
-                overflow-x: hidden;
-                overflow-y: hidden;
-                
-                
-            }
-            .pro_ad p{
-                font-size: 20px;
-                
-            }
-            #plans, #free{
-                border: none;
-                border-radius: 0.5rem;
-                text-align: center;
-                font-size: 17px;
-                
-            }
-            button{
-                background-color: black;
-                color: white;
-                padding: 5px;
-                
-                
-            }
-            
-            #last_img{
-                height: 70px;
-                display: inline;
-                float : left;
-                position : relative;
-                border-radius: 0.5rem;
-                left : 150px;
-            }
-            
-            .foot{
-                background-color : #181818;
-                width : 100%;
-                text-align : center;
-                color: white;
-                display: inline-block;
-                height: 100px;
-                padding: 50px;
-            }
-            #footlogo1{
-                padding: 10px;
-                height: 60px;
-                border-radius: 2.5rem;
-            }
-            #footlogo2{
-                padding: 10px;
-                height: 60px;
-                border-radius: 1.5rem;
-            }
-            #footlogo3{
-                padding: 10px;
-                height: 60px;
-                border-radius: 2.5rem;
-            }
-            #footlogo4{
-                padding: 10px;
-                height: 60px;
-                border-radius: 2.5rem;
-                
-            }
-            
-            .previous{
-                border-radius : 2.5rem;
-                font-size: 55px;
-                float : left;
-                margin-left: 50px;
-                margin-right: auto;
-                margin-top: 250px;
-                
-                
-                
-            }
-            .next{
-                border-radius : 2.5rem;
-                font-size: 55px;
-                float : right;
-                margin-right: 50px;
-                margin-top: 250px;
-                
-                
-            }
-            #banners{
-                display : inline-block;
-                
-                
-            }
-            .plusPro{
-                font-size: 20px;
-                border: none;
-            }
-            .signin{
-                font-size: 20px;
-                border: none;
-            }
-            #inputMov{
-                font-size: 16px;
-               
-                background-color: #606060;
-            }
-            #showData{
-                display: block;
-                
-            }
-            #title{
-                color: white;
-                font-size: 20px;
-                text-align: center;
-            }
-            h2
-            {
-                color: #FFD700;
-            }
-            h1{
-                color: white;
-                text-align: center;
-            }
-            html{
-                overflow-x: hidden;
-            }
-            #newRel{
-                text-align: center;
-                font-size: 40px;
-                color: #FFD700;
-            }
-         
-/* </style> */
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #FFD700;
+}
+
+/* Header Styles */
+head {
+    background-color: #181818;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#logo {
+    height: 40px;
+    display: inline;
+    float: left;
+    position: relative;
+    border-radius: 0.5rem;
+    left: 150px;
+}
+
+#navbar {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#navbar li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px 15px;
+    color: white;
+}
+
+#navbar li:hover {
+    background-color: #515560;
+    border-radius: 0.5rem;
+}
+
+select, input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    background-color: #515560;
+    color: white;
+    border-radius: 0.25rem;
+    border: none;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #FFD700;
+    color: black;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #FFC300;
+}
+
+#all, #Search_IMDb {
+    font-size: 16px;
+}
+
+#all {
+    width: 10%;
+}
+
+#Search_IMDb {
+    width: 30%;
+}
+
+/* Content Styles */
+.content {
+    font-size: 28px;
+    margin: 100px 70px 20px;
+    color: #FFD700;
+    text-align: left;
+}
+
+#title {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Recommendations Section */
+.recommendations {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 70px;
+    flex-wrap: wrap;
+}
+
+.recommendations .inside {
+    width: 20%;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommendations img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.recommendations p {
+    font-size: 16px;
+    color: #FFD700;
+}
+
+/* Footer Styles */
+.foot {
+    background-color: #181818;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.foot img {
+    padding: 10px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#footlogo1, #footlogo2, #footlogo3, #footlogo4 {
+    margin-right: 20px;
+}
+
+/* Pro Ad Section */
+.pro_ad {
+    background-color: #FFD700;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.9;
+    border-radius: 0.5rem;
+}
+
+.pro_ad p {
+    font-size: 18px;
+}
+
+.pro_ad button {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+/* Miscellaneous */
+.previous, .next {
+    font-size: 40px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.previous:hover, .next:hover {
+    color: #FFD700;
+}
+
+.banner_img {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    height: auto;
+}
+
+h1, h2 {
+    color: #FFD700;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+#newRel {
+    font-size: 36px;
+    color: #FFD700;
+    margin-top: 50px;
+}
